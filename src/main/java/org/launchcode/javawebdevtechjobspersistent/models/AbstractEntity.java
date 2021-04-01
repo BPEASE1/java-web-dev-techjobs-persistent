@@ -13,6 +13,8 @@ public abstract class AbstractEntity {
     @Id
     @GeneratedValue
     private int id;
+
+
     @NotNull
     @Length (min=1,max=150)
     public String name;
